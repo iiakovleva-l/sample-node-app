@@ -1,20 +1,21 @@
 {
-    "name": "sample-node-app",
-    "version": "1.0.0",
-    "description": "A simple Node.js app for testing CI/CD",
-    "main": "src/index.js",
-    "scripts": {
-      "test": "jest"
-    },
-    "keywords": [
-      "node",
-      "npm",
-      "test",
-      "ci/cd"
-    ],
-    "author": "Your Name",
-    "license": "ISC",
-    "devDependencies": {
-      "jest": "^29.7.0"
-    }
+  "name": "sample-node-app",
+  "version": "1.0.0",
+  "description": "A simple Node.js app for testing CI/CD",
+  "main": "src/index.js",
+  "scripts": {
+    "test": "jest",
+    "build": "echo 'Building your application...'"
+  },
+  "keywords": [
+    "node",
+    "npm",
+    "test",
+    "ci/cd"
+  ],
+  "author": "Your Name",
+  "license": "ISC",
+  "devDependencies": {
+    "jest": "^29.7.0"
   }
+}
