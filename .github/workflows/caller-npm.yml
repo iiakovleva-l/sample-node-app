@@ -1,0 +1,16 @@
+name: Call npm build
+
+on:
+    push:
+        branches:
+            - main
+    pull_request:
+        branches:
+            - main
+
+jobs:
+    caller-npm-build:
+        uses: iiakovleva-l/ci-cd-workflows/.github/workflows/build-npm.yml@main
+        with:
+            node-version: '18'
+            
