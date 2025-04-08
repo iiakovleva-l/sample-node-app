@@ -1,0 +1,61 @@
+# General Node.js
+node_modules/
+package-lock.json
+npm-debug.log*
+yarn-error.log*
+lerna-debug.log*
+
+# Optional: If you don't want to commit .env files
+.env
+.env.local
+.env.development
+.env.development.local
+.env.test
+.env.test.local
+.env.production
+.env.production.local
+
+# IDE and Editor specific
+.vscode/
+.idea/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+
+# macOS specific
+.DS_Store
+.AppleDouble
+.LSOverride
+._*
+.Spotlight-V100
+.TemporaryItems
+.Trashes
+.VolumeIcon.icns
+.com.apple.timemachine.donotpresent
+.AppleDouble
+.com.apple.FinderInfo
+
+# Logs and temp files
+logs
+*.log
+tmp
+temp
+
+# Build output
+build
+dist
+out
+
+# Dependencies cache
+pnpm-lock.yaml
+
+# Coverage reports
+coverage
+
+# Git related (if needed, but usually not)
+.gitattributes
+.gitkeep
+
+# Personal files (if any)
+.history
